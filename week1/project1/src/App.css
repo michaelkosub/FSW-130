@@ -1,0 +1,12 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: 30px;
+}
+#light-theme{
+  background-color: blue;
+  color: aqua;
+}
