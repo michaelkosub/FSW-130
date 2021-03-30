@@ -1,0 +1,61 @@
+body {
+  font-family: "HelveticaNeue-UltraLight", "Helvetica Neue UltraLight",
+    "Helvetica Neueu", Helvetica, Arial, sans-serif;
+  margin: 0;
+  background-color: #53e70e;
+}
+h1 {
+    text-align: center;
+}
+.stopwatch {
+  text-align: center;
+}
+.stopwatch-timer {
+  font-size: 76px;
+  font-weight: 100;
+  line-height: 160px;
+
+  margin: 0;
+
+  border: solid #cecfd0;
+  border-width: 1px 0;
+  background-color: rgb(233, 230, 230);
+}
+.stopwatch-laps {
+  padding: 0 0 0 20px;
+  list-style-type: none;
+}
+.stopwatch-lap {
+  font-size: 20px;
+  line-height: 60px;
+  padding-right: 20px;
+  text-align: right;
+  border-bottom: 1px solid #1031ec;
+}
+.stopwatch-lap strong {
+  float: left;
+  color: #062b9c;
+  font-weight: 100;
+}
+.stopwatch-lap strong::before {
+  content: "Lap ";
+}
+button {
+  font-family: inherit;
+  font-size: 20px;
+
+  display: inline-block;
+
+  width: 72px;
+  height: 72px;
+  margin: 24px;
+  padding: 0;
+
+  cursor: pointer;
+  letter-spacing: 1px;
+
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+  background: rgb(219, 20, 20);
+}
