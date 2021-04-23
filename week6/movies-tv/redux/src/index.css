@@ -1,0 +1,68 @@
+body {
+  text-align: center;
+  color: rgb(35, 16, 201);
+  font-size: 20px;
+  background-image: url('https://images.unsplash.com/photo-1542204165-65bf26472b9b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW92aWVzfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+  background-attachment: fixed;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+.nav {
+  position: absolute;
+ display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  height: 8em;
+  font-size: 1.6em;   
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.movieLink {
+  color: rgb(253, 8, 8);
+  margin-top: 20px;
+  border-top: 2px solid rgb(253, 8, 8);
+}
+.movieLink:hover {
+  color: rgb(17, 14, 9);
+  border-top: rgb(19, 17, 14);
+}
+.tvLink {
+  color: rgb(253, 8, 8);
+  margin-top: 20px;
+  border-top: 2px solid rgb(253, 8, 8);
+}
+.tvLink:hover {
+  color: rgb(17, 14, 9);
+  border-top: rgb(17, 14, 9);
+}
+.heading {
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  margin-top: 240px;
+  font-size: 2em;
+}
+#deleteButton {
+  font-family: 'Arimo', sans-serif;
+  background-color: rgb(17, 14, 9);
+  border: none;
+  height: 2em;
+  color: white;
+  width: 6em;
+ 
+}
+#deleteButton:hover {
+  background-color: rgb(248, 6, 6);
+}
+#submitButton {
+  font-family: 'Arimo', sans-serif;
+  background-color: rgb(65, 42, 167);
+  border: none;
+  height: 2em;
+  width: 6em;
+  color: white;
+  
+}
+#submitButton:hover {
+  background-color: rgb(45, 182, 32);
+}
